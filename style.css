@@ -1,0 +1,49 @@
+body{
+    background-image:url("https://images.pexels.com/photos/6070384/pexels-photo-6070384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: 100%;
+}
+#sub{
+    padding-top: 5px;
+    padding-left: 92px;
+    padding-right: 92px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-left: 1mm;
+    background-color: green;
+    color: white;
+
+}
+form{
+    
+    height: 90mm;
+    width:25%;
+    padding-left:10%;
+    padding-top: 5%;
+    margin-left: 50%;
+    margin-top: 10%;
+    border:2px solid black;
+}
+#pwd{
+    margin-left: 8px;
+}
+#em{
+    margin-left: 30px;
+}
+#pn{
+    margin-left: 17px;
+}
+input:hover{
+    border: 2px solid rgb(14, 0, 0);
+}
+#sub:hover{
+        background-color: rgb(2, 82, 10);
+        font-size: large;
+}
+h1{
+    color: rgb(161, 75, 5);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
