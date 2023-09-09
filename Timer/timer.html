@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Countdown Timer with Notification</title>
+    <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+    <div class="timer">
+        <div class="input-container">
+            <label for="timeInput"><b>Set Time (secs):</b></label>
+            <br>
+            <input type="number" id="timeInput" min="1" value="60">
+        </div>
+        <br>
+        <div id="display">00:00</div>
+        <div id="notification" style="color: green;"></div>
+        <div class="controls">
+            <br><br><br><br>
+            <button class="btn" id="start">Start</button>
+            <button class="btn" id="stop">Stop</button>
+            <button class="btn" id="resetButton">Reset</button>
+        </div>
+    </div>
+    <script src="timer.js"></script>
+
+</body>
+</html>

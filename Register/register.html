@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Registration Form</title>
+    <link rel="stylesheet" href="rstyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gaming Registration Form</h1>
+        <form method="post" onsubmit="return validateForm()">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+            <span id="firstname-error" class="error"></span>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required>
+            <span id="lastname-error" class="error"></span>
+
+            <label for="teamname">Team Name:</label>
+            <input type="text" id="teamname" name="teamname" required>
+            <span id="teamname-error" class="error"></span>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit" >Register</button>
+            <script src="register.js"></script>
+        </form>
+    </div>
+</body>
+</html>
